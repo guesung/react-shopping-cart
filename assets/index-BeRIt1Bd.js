@@ -16535,7 +16535,7 @@ function CartItem({
           onError: (e2) => {
             const target = e2.currentTarget;
             target.onerror = null;
-            target.src = "/images/default-img.png";
+            target.src = "images/default-img.png";
           }
         }
       ) }),
